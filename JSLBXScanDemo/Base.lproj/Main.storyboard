@@ -112,7 +112,7 @@
                                     <constraint firstAttribute="width" constant="65" id="CFY-Y1-pZR"/>
                                     <constraint firstAttribute="height" constant="87" id="FD7-Nu-QQ8"/>
                                 </constraints>
-                                <state key="normal" image="qrcode_scan_btn_flash_nor.png"/>
+                                <state key="normal" image="CodeScan.bundle/qrcode_scan_btn_flash_nor@2x.png"/>
                                 <connections>
                                     <action selector="turnOnOffTorchAction:" destination="VWM-Wa-gZU" eventType="touchUpInside" id="Cuw-e7-BOI"/>
                                 </connections>
@@ -128,9 +128,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="原生扫码" id="g3L-b3-R83"/>
-                    <connections>
-                        <outlet property="torchButton" destination="0Ft-V6-139" id="nv3-86-wNs"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kvA-iR-whl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -162,7 +159,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="qrcode_scan_btn_flash_nor.png" width="65" height="87"/>
+        <image name="CodeScan.bundle/qrcode_scan_btn_flash_nor@2x.png" width="65" height="87"/>
         <image name="testORCode.png" width="235" height="233"/>
     </resources>
 </document>

@@ -12,7 +12,6 @@
 
 @interface ScanViewController ()
 
-@property (weak, nonatomic) IBOutlet UIButton *torchButton;
 @property (nonatomic, strong) LBXScanViewStyle *scanViewStyle;
 @property (nonatomic, strong) LBXScanView *scanView;
 @property (nonatomic, strong) LBXScanNative *scanNative;
@@ -23,8 +22,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self.torchButton setImage:[UIImage imageNamed:@"CodeScan.bundle/qrcode_scan_btn_flash_nor@2x.png"] forState:UIControlStateNormal];
     
     [self.view addSubview:self.scanView];
     [self.view sendSubviewToBack:self.scanView];
